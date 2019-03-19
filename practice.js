@@ -96,9 +96,9 @@ let devMountainClassPet = dog.name
 
 // Code here
 function nameCheck(nameParam) {
-  if (name === "Steven") {
+  if (nameParam === "Steven") {
     return "What is up Steven?"
-  }else if(name === "Bryan") {
+  }else if(nameParam === "Bryan") {
     return "Hey Bryan!"
   }else {
     return `Cool name, ${nameParam}`
